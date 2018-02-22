@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+  <!-- <% include ../partials/nav.ejs %>-->
+<div class="container">
+  <!-- <div class="row"> -->
+    <div class="col-xs-12">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h2>Upload File</h2>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar"></div>
+          </div>
+          <button class="btn btn-lg upload-btn" type="button">File Upload</button>
+          <input id="upload-input" type="file" name="uploads[]">
+          <button class="btn btn-lg result-btn" type="button">Results</button>
+        </div>
+      </div>
+    </div>
+</div>
+  <div id="chart">
+    <svg id = "mychart"> </svg>    
+  </div>
+
+  <script src="javascripts/upload.js"></script>
+  <script src="javascripts/pie.js"></script>
+
+
+</body>
+</html>
