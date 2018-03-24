@@ -14,5 +14,5 @@ As this app is deployed using Heroku free account, if it doesn't receive traffic
 
 Due to ajax there is an error that is written to console, however this doesn't effect the accuracy as it is used for showing the percentage of the upload.
 
-This app needs further development and is not checked for edge cases.
+This app needs further development and is not tested.
 
